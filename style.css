@@ -1,0 +1,13 @@
+.txtPadrao {
+    font-size: 20px;
+}
+
+
+#init {
+    background-image: url('https://images.pexels.com/photos/6039246/pexels-photo-6039246.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    height: 100vh;
+    margin: auto ;    
+    background-repeat: round;
+    
+
+}
