@@ -14,106 +14,110 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-0 py-3">
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark px-0 py-3">
     <div class="container-xl">
       <!-- Collapse -->
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <!-- Nav -->
         <div class="navbar-nav mx-lg-auto">
-          <a class="nav-item nav-link active" href="#" aria-current="page">Sobre</a>
-          <a class="nav-item nav-link" href="#">Portifólio</a>
-          <a class="nav-item nav-link" href="#contato">Contato</a>
-          <a class="nav-item nav-link" href="#">Formação</a>
+          <a class="nav-item nav-link active" href="#about" aria-current="page">About</a>
+          <a class="nav-item nav-link" href="#pojects">portfolio</a>
+          <a class="nav-item nav-link" href="#contact">Contacts</a>
+          <a class="nav-item nav-link" href="#formation">Formation</a>
         </div>
       </div>
   </nav>
 
-  <section id="init" class="d-flex justify-content-center justify-content-around p-5 ">
-    <div class=" d-flex justify-content-end p-5">
-      <div><button type="button" class="btn btn-dark">ver mais</button></div>
-    </div>
+  <section id="init" class="d-flex justify-content-center justify-content-around align-items-center  p-5 ">
     <div>
-      <h1 class="me-5 text-reset">Olá <br> eu sou <br>o Lucas</h1>
+      <h1 class="text-center"> im <br> Lucas Ciannella</h1>
     </div>
   </section>
 
-  <section id="sobre" class=" p-5 ">
+  <section id="about" class=" d-flex justify-content-center align-items-center justify-content-between p-5  ">
     <div class="col-lg-4">
-      <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+      <figure><img class="perf" src="perfil.jpg" alt=""></figure>
     </div>
     <div>
+      <h2>About me</h2>
+      <p class="txtPadrao">I'm a 22 year old java developer and jiu-jitsu teacher. <br>
+        I aim to become an expert in java and spring framework, <br>
+        I've been dedicated to programming since 2020, over the years I've been able to experiment with different
+        languages ​​and frameworks.
 
-      <h2>Sobre mim</h2>
+        <br>
+        <br>
 
-      <p class="txtPadrao">Sou um cara de 22, desenvolvedor java e professor de jiu-jitsu. <br>
-        Tenho como objetivo me tornar um especialista em java e spring framework, <br>
-        Me dedico a programação desde 2020, ao longo desses anos pude experimentar diferentes linguagens e frameworks.
+        When I'm dedicated to a project, I keep in mind that I need to deliver the best I can, so that <br>
+        me and my team can achieve success.
       </p>
     </div>
     <div> <button class="btn btn-dark"> Veja meus projetos</button></div>
   </section>
 
-  <section id="formacao" class="d-flex justify-content-center justify-content-around p-5 ">
+  <section id="formation" class="d-flex justify-content-center justify-content-around p-5 ">
     <div>
-      <h2>Formação</h2>
-      
-      
+      <h2>Formation</h2>
+
+      <Ul>
+        <li>Analysis and systems development</li>
+        <li>Spring framework</li>
+        <li>Junit test</li>
+        
+      </Ul>
+
 
       <div></div>
     </div>
-    
+
   </section>
 
-  <section id="projetos" class="d-flex justify-content-center justify-content-end  p-5 ">
+  <section id="projects" class="d-flex justify-content-center justify-content-end  p-5 ">
     <h2>Projetos:</h2>
     <div class="album py-5 bg-light">
       <div class="container">
-  
+
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
           <div class="col">
             <div class="card shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-  
+              <img src="cripto.png" alt="">
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text">in this project I developed a cryptocurrency crud, it was part of the beginning in java</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">   
+                    <a href="https://github.com/Lucasciannella/CriptocoinsCRUD"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm" >
+              <img src="encurtathor.png" alt="">
+              
+              <div class="card-body">
+                <p class="card-text">This project was made in java and spring technologies, and it is a link shortener like blitly</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
+                    <a href="https://encurtathor.herokuapp.com/swagger-ui/index.html#/" target="_blank">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        </div>
+                    </a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-  
+              <img src="projetosite.png" alt="">
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text">
+                  my first big project.
+                  In the first year of studying programming I made a website for an electrician course, where I created an electrical installation simulator</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <a href="https://ciannella.github.io/projeto-site/instalacoes.html" target="_blank"> <button type="button"  class="btn btn-sm btn-outline-secondary">View</button></a>
                   </div>
-                  <small class="text-muted">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-  
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
                 </div>
               </div>
             </div>
@@ -170,7 +174,7 @@
           <!-- Grid column -->
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4" id="contato" href="#contato">Contato</h6>
+            <h6 class="text-uppercase fw-bold mb-4" id="contact">Contato</h6>
             <p><i class="fas fa-home me-3"></i> Rio de janeiro, RJ</p>
             <p>
               <i class="fas fa-envelope me-3"></i>

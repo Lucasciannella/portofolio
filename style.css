@@ -5,9 +5,41 @@
 
 #init {
     background-image: url('https://images.pexels.com/photos/6039246/pexels-photo-6039246.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-    height: 100vh;
+    height: 85vh;
     margin: auto ;    
     background-repeat: round;
     
 
 }
+
+
+figure {
+    position: relative;
+    display: flex;
+    justify-content: ;
+  }
+   
+  figure:before,
+  figure:after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+   
+  .perf {
+    width: 90%;
+    height: 90%;
+    margin: 0;
+    padding: 0;
+    border-radius: 1000em;
+  }
+
+  /*cards style*/
+
+  #cards{
+    background-image: url('encurtathor.png');
+
+  }
