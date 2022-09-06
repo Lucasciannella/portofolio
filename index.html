@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
   <link rel="stylesheet" href="style.css">
   <script src="https://smtpjs.com/v3/smtp.js"></script>
-  <title>portofólio</title>
+  <title>portfolio</title>
 </head>
 
 <body>
@@ -30,7 +30,7 @@
 
   <section id="init" class="d-flex justify-content-center justify-content-around align-items-center  p-5 ">
     <div>
-      <h1 class="text-center"> im <br> Lucas Ciannella</h1>
+      <h1 class="text-center"> Im <br> Lucas Ciannella</h1>
     </div>
   </section>
 
@@ -181,11 +181,24 @@
               ciannelladev@gmail.com
             </p>
             <p><i class="fas fa-phone me-3"></i> +5521 9 6590-4839</p>
-            <form method="post">
-              <!-- text field-->
-              <input type="text" placeholder="me envie uma mensagem!" name="bodyText"> <button class="btn btn-dark"
-                onclick="sendEmail()">enviar</button>
-            </form>
+            <div class="container">
+              <form target="_blank" action="https://formsubmit.co/lucasciannella@hotmail.com" method="POST">
+                <div class="form-group">
+                  <div class="form-row">
+                    <div class="col">
+                      <input type="text" name="name" id="name" class="form-control" placeholder="Full Name" required>
+                    </div>
+                    <div class="col">
+                      <input type="email" name="email" id="email" class="form-control" placeholder="Email Address" required>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <textarea placeholder="Your Message" class="form-control" name="message" id="message" rows="10" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+              </form>
+            </div>
           </div>
           <!-- Grid column -->
         </div>

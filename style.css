@@ -1,3 +1,8 @@
+body{
+  background-color: #000000;
+  color: white;
+}
+
 .txtPadrao {
     font-size: 20px;
 }
@@ -16,7 +21,6 @@
 figure {
     position: relative;
     display: flex;
-    justify-content: ;
   }
    
   figure:before,
@@ -41,5 +45,4 @@ figure {
 
   #cards{
     background-image: url('encurtathor.png');
-
   }
